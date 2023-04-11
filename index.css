@@ -1,0 +1,119 @@
+body{
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+
+header{
+    text-align: center;
+    background-image: linear-gradient(rgb(238, 238, 238),rgb(34, 40, 49));
+    border: 1%;
+    border-style: solid;
+    border-bottom-left-radius: 10px ;
+    border-bottom-right-radius: 10px;
+    position: fixed;
+    width: 100%;
+}
+
+header h1{
+    margin: 0px;
+    padding: 1%;
+    font-family: 'Noto Sans', sans-serif;
+}
+header nav{
+    display: flex;
+    justify-content:center ;
+}
+
+header nav a{
+    padding: 1%;
+    color: rgb(238, 238, 238);
+    text-decoration: none;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Playfair Display', serif;
+}
+
+main h1{
+    margin: 0px;
+    padding: 3%;
+}
+
+main{
+    padding: 8% 0 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(imgs/Mapa-Avatar.jpg);
+    color: #ECF2FF;
+}
+.Estrutura{
+    width: 50%;
+    background-image: linear-gradient(rgb(34, 40, 49),rgb(57, 62, 70));
+    border-color: rgb(0, 173, 181);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-style: solid;
+    box-shadow: 9px 2px 9px rgba(0, 0, 0, 10);
+}
+
+.Estrutura p{
+    text-align: justify;
+    padding: 3%;
+    margin: 0%;
+}
+
+.prt_img{
+    width: 100%;
+    padding: 1%;
+}
+
+#Imagem{
+    width: 98%;
+    border-radius: 3%;
+}
+
+#Aang{
+    width: 98%;
+    border-radius: 3%;
+}
+
+.prt_video{
+    width: 100%;
+    padding: 1%;
+}
+
+#e_Video{
+    width: 98%;
+    border-radius: 3%;
+    height: 400px;
+}
+
+footer{
+    padding: 2%;
+    background-color: rgb(57, 62, 70);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+footer details{
+    color: #ECF2FF;
+}
+
+footer details a{
+    color: #ECF2FF;
+    text-decoration: none;
+    display: flex;
+    padding: 10%;
+}
+
+#butau{
+    background-color: rgb(57, 62, 70);
+    border: none;
+}
+#butao{
+    text-decoration: none;
+    color: #ECF2FF;
+}
